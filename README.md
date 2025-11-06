@@ -1,43 +1,39 @@
-# Python - wprowadzenie dla Tymka 🐍
+# Python – start dla Tymka 
 
-Hej Tymek! 
+Siema Tymek!
 
-To jest nasze repo do nauki Pythona. Nie ma tu żadnej spiny – po prostu robimy po kolei zadania i zobaczymy dokąd dojdziemy. Każdy folder to jedna sekcja tematyczna, a w środku znajdziesz małe ćwiczenia do zrobienia.
+To jest nasze repo do nauki Pythona.  
+Robimy po kolei i zobaczymy dokąd dojdziemy.  
+Każdy folder to inny temat, a w środku są małe zadanka.
 
-## Jak to działa?
+## Jak odpalać pliki
 
-1. **Uruchamianie plików:**
-   - W terminalu: `python nazwa_pliku.py` (np. `python zad1_print_intro.py`)
-   - Albo kliknij "Run" w swoim IDE (VS Code, PyCharm, cokolwiek używasz)
-   - Ważne: zawsze jesteś w folderze z plikiem, który chcesz odpalić
+- W terminalu wpisz: `python nazwa_pliku.py`  
+  np. `python zad1_print_intro.py`
+- Albo po prostu kliknij **Run** w VS Code / PyCharm / czym tam robisz.
+- Upewnij się, że jesteś w tym samym folderze co plik, który chcesz odpalić.
 
-2. **Struktura:**
-   - Każdy folder to osobny temat
-   - W każdym folderze są 2-4 małe zadania
-   - Robimy po kolei, nie ma presji na tempo
-   - Jeśli coś nie działa – printuj po drodze i nie panikuj xd
+## Co gdzie jest
 
-3. **Solutions:**
-   - W folderze `solutions/` są gotowe rozwiązania (dla mnie, żebym mógł Ci pomóc)
-   - Najpierw spróbuj sam, a potem możemy sprawdzić razem
+- **00_check_setup** – sprawdzamy czy wszystko działa, pierwszy `print()`
+- **01_podstawy** – zmienne, proste obliczenia, `input()`
+- **02_logika** – `if`, `elif`, `else`, decyzje
+- **03_petle** – `for`, `while`, liczenie i powtarzanie
+- **04_kolekcje** – listy, tuple, słowniki
+- **05_stringi** – praca z tekstem
+- **06_funkcje** – `def`, parametry, `return`
+- **07_mini_projekty** – małe projekty (np. kalkulator, zgadywanka)
 
-## Co jest w każdym folderze?
+## Jak pracować
 
-- **00_check_setup** – sprawdzamy czy wszystko działa, pierwsze `print()`
-- **01_podstawy** – zmienne, proste obliczenia, `input()`, rzutowanie typów
-- **02_logika** – `if/elif/else`, porównania, podejmowanie decyzji
-- **03_petle** – `for`, `while`, `range()`, iterowanie po rzeczach
-- **04_kolekcje** – listy, tuple, słowniki, podstawowe operacje
-- **05_stringi** – praca z tekstem, slicing, metody stringów
-- **06_funkcje** – definiowanie funkcji, parametry, `return`
-- **07_mini_projekty** – małe projekty łączące wszystko (kalkulator, zgadywanka, itp.)
+- Robimy po kolei, nie ma żadnego tempa ani ocen.
+- Jak coś nie działa – **printuj wszystko** i zobacz co się dzieje.
+- Komentarze w kodzie Ci mówią co zrobić.
+- Pytaj o wszystko – serio, nie ma głupich pytań.
 
-## Pro tipy
+## Parę tipów
 
-- Jak coś nie działa → printuj zmienne po drodze (`print(f"x = {x}")`)
-- Nie bój się eksperymentować – Python nie wybuchnie
-- Komentarze w kodzie są po to, żeby Ci pomóc, nie żeby Cię stresować
-- Jeśli utkniesz – spokojnie, razem to ogarniemy
-
-Powodzenia! 🚀
+- `print(f"x = {x}")` to Twój najlepszy przyjaciel.
+- Eksperymentuj, modyfikuj kod, zobacz co się stanie.
+- Python nie gryzie, najwyżej rzuci errorem i się czegoś nauczymy.
 

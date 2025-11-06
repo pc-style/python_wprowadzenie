@@ -15,6 +15,7 @@ def main():
     # - jeśli zgadł - wypisz gratulacje i przerwij pętlę (break)
     # - jeśli za mała - wypisz "Za mała!"
     # - jeśli za duża - wypisz "Za duża!"
+    # - jeśli przekroczyłeś maksymalną liczbę prób - wypisz "Koniec prób! Liczba to była [liczba]" i przerwij pętlę (break)
     # - podpowiedz ile prób zostało (np. max 10 prób)
     
     # TODO: po pętli wypisz ile prób zajęło zgadnięcie
